@@ -6,7 +6,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0.75),rgba(0,0,0,0.75)),url(img/bg04.jpg);
+    background-image: linear-gradient(rgba(0,0,0.322),rgba(0, 0, 0, 0.479)),url(img/bg04.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -70,12 +70,8 @@
     font-size: 70px;
     margin-top: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    animation-name: grow;
-    animation-duration: 1s;
 }
-@keyframes grow{
-    50%{transform: scale(1.2, 1.2);}
-}
+
 .content p{
     margin: 20px auto;
     font-weight: bold;

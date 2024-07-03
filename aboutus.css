@@ -6,7 +6,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0.75),rgba(0,0,0,0.75)),url(img/bg03.jpg);
+    background-image: linear-gradient(rgba(0,0,0.75),rgba(0, 0, 0, 0.75)),url(img/bg03.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -84,9 +84,7 @@
     animation-duration: 0.5s;
     
 }
-@keyframes slidedown{
-    from{transform: translateX(100px)}
-}
+
 .content p{
     color: #fff;
     text-align: left;
@@ -98,9 +96,7 @@
     animation-name: slideright;
     animation-duration: 1s;
 }
-@keyframes slideright{
-    from{transform: translateX(20px)}
-}
+
 .content2 h1{
     text-align: center;
     margin-top: 50px;
@@ -112,9 +108,7 @@
     animation-duration: 5s;
 
 }
-@keyframes slideup{
-    from{transform: translateY(20px); }
-}
+
 .content2 p{
     color: #fff;
     font-size: 30px;
@@ -125,12 +119,9 @@
     animation-name: slideup;
     animation-duration: 5s;
 }
-@keyframes slideup{
-    from{transform: translateY(20px)}
 
 /*this is footer part*/
     
-}
 .footer{
     background-color: rgba(7, 7, 7, 0.712);
     margin-top: 20px;

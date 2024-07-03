@@ -4,6 +4,7 @@
     <title>About us</title>
     <link rel="stylesheet" href="aboutus.css">
     <script src="https://kit.fontawesome.com/16fcf5c42f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     
@@ -16,18 +17,18 @@
            <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="aboutus.html">ABOUT US</a></li>
-                <li><a href="#">EVENTS</a></li>
+                <li><a href="event.html">EVENTS</a></li>
                 <li><a href="#">CONTACT</a></li>
            </ul>
         </div>
         <!-- this is about us part-->
         <div class="heading">
-            <h1>ABOUT US</h1>
+            <h1 data-aos="zoom-in" data-aos-duration="1000">ABOUT US</h1>
         </div>
         <div>
             <div class="content">
-                <h2>Welcome to our Website</h2>
-                <p>
+                <h2 data-aos="fade-right" data-aos-duration="1000">Welcome to our Website</h2>
+                <p data-aos="fade-left" data-aos-duration="1500">
                     The Antonian Computer Fraternity, established in 2008 at St.Anthony's College Kandy, is a dedicated community for students passionate about technology and computer science.<br>
                     Our fraternity aims to foster a collaborative environment where members can enhance their skills, share knowledge, and innovate together.<br>
                     We organize workshops, hackathons, and guest lectures to provide hands-on experiences and insights
@@ -41,8 +42,8 @@
         <!--this is committe members part-->
 
         <div class="content2">
-            <h1>Our Committee</h1>
-            <p>
+            <h1 data-aos="zoom-in" data-aos-duration="1000">Our Committee</h1>
+            <p data-aos="fade-down" data-aos-duration="2000">
                 Rector : Rev. Fr. Henry Bernad Wijerathne<br><br>
 
                 Advisor : Rev. Fr. Dushyantha<br><br>
@@ -112,6 +113,9 @@
 
 
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
