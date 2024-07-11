@@ -95,7 +95,7 @@ button{
     overflow: hidden;
 }
 span{
-    background: #0110e2;
+    background: linear-gradient(270deg,rgb(28, 118, 235),#0110e2);
     height: 100%;
     width: 0%;
     border-radius: 25px;
