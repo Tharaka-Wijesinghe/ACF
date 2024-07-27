@@ -5,12 +5,12 @@
 }
 .banner{
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0.75),rgba(0, 0, 0, 0.75)),url(img/bg03.jpg);
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0.75),rgba(0, 0, 0, 0.582)),url(img/bg5.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100%;
+    
 }
 .navbar{
     width: 85%;
@@ -95,6 +95,7 @@
     font-style: italic;
     animation-name: slideright;
     animation-duration: 1s;
+    font-family: 'Times New Roman',;
 }
 
 .content2 h1{
@@ -108,7 +109,6 @@
     animation-duration: 5s;
 
 }
-
 .content2 p{
     color: #fff;
     font-size: 30px;
@@ -118,6 +118,13 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     animation-name: slideup;
     animation-duration: 5s;
+}
+.content2 img{
+    height: 500px;
+    width: 900px;
+    margin-left: 18%;
+    border-radius: 20px;
+    border-color: #fff;
 }
 
 /*this is footer part*/
